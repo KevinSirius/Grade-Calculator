@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		283D1AD323B802BB0092B7C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283D1AD223B802BB0092B7C7 /* main.cpp */; };
+		283D1ADB23B802D70092B7C7 /* Class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283D1AD923B802D70092B7C7 /* Class.cpp */; };
+		283D1ADE23B805C40092B7C7 /* Section.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283D1ADC23B805C40092B7C7 /* Section.cpp */; };
+		283D1AE123B807C50092B7C7 /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283D1ADF23B807C50092B7C7 /* Item.cpp */; };
+		283D1AE723B860FD0092B7C7 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283D1AE523B860FD0092B7C7 /* User.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		283D1ACF23B802BB0092B7C7 /* Grade Cal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Grade Cal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		283D1AD223B802BB0092B7C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		283D1AD923B802D70092B7C7 /* Class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Class.cpp; sourceTree = "<group>"; };
+		283D1ADA23B802D70092B7C7 /* Class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Class.hpp; sourceTree = "<group>"; };
+		283D1ADC23B805C40092B7C7 /* Section.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Section.cpp; sourceTree = "<group>"; usesTabs = 0; };
+		283D1ADD23B805C40092B7C7 /* Section.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Section.hpp; sourceTree = "<group>"; };
+		283D1ADF23B807C50092B7C7 /* Item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
+		283D1AE023B807C50092B7C7 /* Item.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Item.hpp; sourceTree = "<group>"; };
+		283D1AE523B860FD0092B7C7 /* User.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
+		283D1AE623B860FD0092B7C7 /* User.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = User.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				283D1AD223B802BB0092B7C7 /* main.cpp */,
+				283D1AE523B860FD0092B7C7 /* User.cpp */,
+				283D1AE623B860FD0092B7C7 /* User.hpp */,
+				283D1AD923B802D70092B7C7 /* Class.cpp */,
+				283D1ADA23B802D70092B7C7 /* Class.hpp */,
+				283D1ADC23B805C40092B7C7 /* Section.cpp */,
+				283D1ADD23B805C40092B7C7 /* Section.hpp */,
+				283D1ADF23B807C50092B7C7 /* Item.cpp */,
+				283D1AE023B807C50092B7C7 /* Item.hpp */,
 			);
 			path = "Grade Cal";
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283D1AE123B807C50092B7C7 /* Item.cpp in Sources */,
+				283D1ADB23B802D70092B7C7 /* Class.cpp in Sources */,
 				283D1AD323B802BB0092B7C7 /* main.cpp in Sources */,
+				283D1ADE23B805C40092B7C7 /* Section.cpp in Sources */,
+				283D1AE723B860FD0092B7C7 /* User.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +200,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -229,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
